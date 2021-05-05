@@ -1,0 +1,40 @@
+:root {
+    --main-body: #832f25;
+    --txt: #bb894a;
+    --footer-body: #1d3468;
+}
+* { box-sizing: border-box; }
+
+body {
+    background-color: var(--main-body);
+    color: var(--txt);
+}
+
+.profile-img { float: right; }
+
+li {
+    list-style: none;
+}
+
+main {
+    padding-top: 50px;
+    border-top: 2px solid #000;
+}
+
+.footer-nav {
+    text-align: center;
+    padding: 10px;
+}
+
+footer {
+    background: var(--footer-body);
+    border-top: 2px solid black;
+    height: 300px;
+    border-bottom: 2px solid black;
+}
+
+.footer-nav-items {
+    
+    float: left;
+    padding-left: 50px;
+}
